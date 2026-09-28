@@ -438,9 +438,11 @@ function showView(view) {
 
 /* ---------- pickup / catering mode toggle (cart is shared; switching never loses it) ---------- */
 function modeToggleHtml() {
-  return '<div class="t-tips" style="margin-bottom:10px">' +
-    '<button type="button" class="t-tip' + (orderMode === 'pickup' ? ' active' : '') + '" data-mode="pickup">Pickup</button>' +
-    '<button type="button" class="t-tip' + (orderMode === 'catering' ? ' active' : '') + '" data-mode="catering">Catering</button></div>' +
+  var tabs = orderMode === 'catering'
+    ? '<button type="button" class="t-tip active" data-mode="catering">Catering</button>'
+    : '<button type="button" class="t-tip active" data-mode="pickup">Pickup</button>' +
+      '<button type="button" class="t-tip" data-mode="catering">Catering</button>';
+  return '<div class="t-tips" style="margin-bottom:10px">' + tabs + '</div>' +
     (orderMode === 'catering'
       ? '<div style="font-size:.82rem;color:var(--muted);margin:-2px 0 10px">Catering menu: tray prices (Small serves 8\u201310, Medium 16\u201318, Large 23\u201325). Pickup free \u00B7 delivery $100 within 20 miles.</div>'
       : '');
