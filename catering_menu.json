@@ -1,1194 +1,1202 @@
 [
- {
-  "name": "Samosa",
-  "cat": "Veg Appetizers",
-  "type": "pack",
-  "options": [
-   {
-    "qty": 20,
-    "unit": 300
-   },
-   {
-    "qty": 30,
-    "unit": 300
-   },
-   {
-    "qty": 50,
-    "unit": 200
-   }
-  ]
- },
- {
-  "name": "Samosa Chaat",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 5200,
-  "medium": 8400,
-  "large": 14600
- },
- {
-  "name": "Chilli Paneer",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Chilli Gobi",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Chilli Baby Corn",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Chilli Mushroom",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Babycorn Manchurian",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Gobi Manchurian",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Mushroom Manchurian",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Paneer Manchurian",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Mushroom 65",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Baby Corn 65",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Paneer 65",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Gobi 65",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 18200
- },
- {
-  "name": "Mixed Pakora",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 5200,
-  "medium": 7800,
-  "large": 12500
- },
- {
-  "name": "Makhmali Paneer Angara",
-  "cat": "Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 12500,
-  "large": 18800
- },
- {
-  "name": "Chicken Chukka",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Lamb Chukka",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 15600,
-  "large": 22900
- },
- {
-  "name": "Goat Chukka",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 15600,
-  "large": 20800
- },
- {
-  "name": "Chilli Fish",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Chilli Chicken",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chilli Shrimp",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chicken Darbar",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chicken Manchurian",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Shrimp Manchurian",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Fish Manchurian",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chicken 65",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Fish 65",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Shrimp 65",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chicken 555",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Fish 555",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Shrimp 555",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 16700
- },
- {
-  "name": "Chicken Ghee Roast",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 18800
- },
- {
-  "name": "Goat Ghee Roast",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 15600,
-  "large": 20800
- },
- {
-  "name": "Lamb Ghee Roast",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 15600,
-  "large": 22900
- },
- {
-  "name": "Chicken Wings",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Tandoori Chicken",
-  "cat": "Non-Veg Appetizers",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Dal Palak",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 5200,
-  "medium": 8400,
-  "large": 13600
- },
- {
-  "name": "Dal Tadka",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 5200,
-  "medium": 8400,
-  "large": 13600
- },
- {
-  "name": "Dal Makhni",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6300,
-  "medium": 9400,
-  "large": 15600
- },
- {
-  "name": "Baingan Curry",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Bhindi Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Balti Paneer",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Tofu Chole Curry",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Paneer Methi Malai",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Matar Paneer Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Mushroom Butter Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Paneer Butter Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Tofu Butter Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Kadai Corn Mushroom",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Kadai Veg",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Veg Tikka Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Mushroom Tikka Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Veg Jalfrezi",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Paneer Jalfrezi",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Veg Malabar",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Paneer Korma",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Kaju Kasuri Methi",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 13600,
-  "large": 20300
- },
- {
-  "name": "Chole Saag Curry",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Amritsari Chole Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Aloo Gobi Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Matar Mushroom Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Veg Chettinad",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Paneer Chettinad",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 6800,
-  "medium": 12000,
-  "large": 15600
- },
- {
-  "name": "Malai Koftha",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 14100,
-  "large": 16700
- },
- {
-  "name": "Palak Koftha",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 14100,
-  "large": 16700
- },
- {
-  "name": "Palak Paneer",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 14100,
-  "large": 16700
- },
- {
-  "name": "Amritsari Paneer Bhurji",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Amul Cheese Paneer Butter Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 9400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Kadai Paneer",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Tofu Tikka Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Paneer Tikka Masala",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Navratan Korma",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Paneer Gongura",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Veg Gongura",
-  "cat": "Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 13000,
-  "large": 15600
- },
- {
-  "name": "Butter Chicken",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Tikka Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Methi Malai Chicken",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Kadai Chicken",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Vindaloo",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Malabar",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chef Special Chicken Curry",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Chettinad",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Gongura",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Rogan Josh",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Chicken Korma",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13600,
-  "large": 16700
- },
- {
-  "name": "Lamb Rogan Josh",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Saag",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Vindaloo",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Gongura",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Gongura",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Gongura",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Butter Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Butter Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Butter Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Tikka Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Tikka Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Tikka Masala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Curry",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Curry",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Saagwala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Saagwala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Rogan Josh",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Chettinad",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Chettinad",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Chettinad",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Fish Chettinad",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Vindaloo",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Malabar",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Malabar",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Lamb Korma",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Goat Korma",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Shrimp Korma",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 20800
- },
- {
-  "name": "Mango Chicken Curry",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 18800
- },
- {
-  "name": "Chicken Saagwala",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 7800,
-  "medium": 14100,
-  "large": 18200
- },
- {
-  "name": "Fish Vindaloo",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Fish Malabar",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 19800
- },
- {
-  "name": "Kadai Lamb",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 21900
- },
- {
-  "name": "Kadai Goat",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 21900
- },
- {
-  "name": "Egg Curry",
-  "cat": "Non-Veg Entrees",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14600,
-  "large": 18800
- },
- {
-  "name": "Veg Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 14600
- },
- {
-  "name": "Paneer Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 7300,
-  "medium": 12500,
-  "large": 15600
- },
- {
-  "name": "Chicken Biryani (with Bone)",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Vijaywada Chicken Biryani (Boneless)",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Chicken Tikka Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Fish Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Goat Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Lamb Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Shrimp Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 8400,
-  "medium": 14100,
-  "large": 17700
- },
- {
-  "name": "Egg Biryani",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 7300,
-  "medium": 13000,
-  "large": 15600
- },
- {
-  "name": "Plain Rice",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 3200,
-  "medium": 5200,
-  "large": 8400
- },
- {
-  "name": "Ghee Rice with Nuts",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 4200,
-  "medium": 6300,
-  "large": 10400
- },
- {
-  "name": "Jeera Rice",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 4200,
-  "medium": 6300,
-  "large": 10400
- },
- {
-  "name": "Masala Rice",
-  "cat": "Biryani & Rice",
-  "type": "tray",
-  "small": 4200,
-  "medium": 6300,
-  "large": 10400
- },
- {
-  "name": "Naan / Roti",
-  "cat": "Breads",
-  "type": "each",
-  "unit": 400,
-  "min": 20
- },
- {
-  "name": "Garlic Naan",
-  "cat": "Breads",
-  "type": "each",
-  "unit": 500,
-  "min": 20
- },
- {
-  "name": "Onion, Lemon & Chilli",
-  "cat": "Sides",
-  "type": "tray",
-  "small": 3200,
-  "medium": 5200,
-  "large": 7800
- },
- {
-  "name": "Mint Sauce (32 oz)",
-  "cat": "Sides",
-  "type": "fixed",
-  "price": 2100
- },
- {
-  "name": "Tamarind Sauce (32 oz)",
-  "cat": "Sides",
-  "type": "fixed",
-  "price": 2100
- },
- {
-  "name": "Raitha (32 oz)",
-  "cat": "Sides",
-  "type": "fixed",
-  "price": 2600
- },
- {
-  "name": "Papad",
-  "cat": "Sides",
-  "type": "each",
-  "unit": 200,
-  "min": 20
- },
- {
-  "name": "Gulab Jamun",
-  "cat": "Desserts",
-  "type": "pack",
-  "options": [
-   {
-    "qty": 20,
-    "unit": 300
-   },
-   {
-    "qty": 30,
-    "unit": 200
-   },
-   {
-    "qty": 50,
-    "unit": 200
-   }
-  ]
- },
- {
-  "name": "Rasmalai",
-  "cat": "Desserts",
-  "type": "pack",
-  "options": [
-   {
-    "qty": 21,
-    "unit": 300
-   },
-   {
-    "qty": 30,
-    "unit": 200
-   },
-   {
-    "qty": 50,
-    "unit": 200
-   }
-  ]
- },
- {
-  "name": "Carrot Halwa",
-  "cat": "Desserts",
-  "type": "tray",
-  "small": 7800,
-  "medium": 11500,
-  "large": 15600
- },
- {
-  "name": "Moong Dal Halwa",
-  "cat": "Desserts",
-  "type": "tray",
-  "small": 7800,
-  "medium": 11500,
-  "large": 15600
- },
- {
-  "name": "Pineapple Halwa",
-  "cat": "Desserts",
-  "type": "tray",
-  "small": 7800,
-  "medium": 11500,
-  "large": 15600
- }
+  {
+    "name": "Samosa",
+    "cat": "Veg Appetizers",
+    "type": "pack",
+    "options": [
+      {
+        "qty": 20,
+        "unit": 300
+      },
+      {
+        "qty": 30,
+        "unit": 300
+      },
+      {
+        "qty": 50,
+        "unit": 200
+      }
+    ]
+  },
+  {
+    "name": "Samosa Chaat",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 5200,
+    "medium": 8400,
+    "large": 14600
+  },
+  {
+    "name": "Chilli Paneer",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Chilli Gobi",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Chilli Baby Corn",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Chilli Mushroom",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Babycorn Manchurian",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Gobi Manchurian",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Mushroom Manchurian",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Paneer Manchurian",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Mushroom 65",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Baby Corn 65",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Paneer 65",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Gobi 65",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 18200
+  },
+  {
+    "name": "Mixed Pakora",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 5200,
+    "medium": 7800,
+    "large": 12500
+  },
+  {
+    "name": "Makhmali Paneer Angara",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 12500,
+    "large": 18800
+  },
+  {
+    "name": "Haryali Paneer Kebab",
+    "cat": "Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 12500,
+    "large": 18800
+  },
+  {
+    "name": "Chicken Chukka",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Lamb Chukka",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 15600,
+    "large": 22900
+  },
+  {
+    "name": "Goat Chukka",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 15600,
+    "large": 20800
+  },
+  {
+    "name": "Chilli Fish",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Chilli Chicken",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chilli Shrimp",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Darbar",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Manchurian",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Shrimp Manchurian",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Fish Manchurian",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chicken 65",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Fish 65",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Shrimp 65",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chicken 555",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Fish 555",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Shrimp 555",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Ghee Roast",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 18800
+  },
+  {
+    "name": "Goat Ghee Roast",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 15600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Ghee Roast",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 15600,
+    "large": 22900
+  },
+  {
+    "name": "Chicken Wings",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Tandoori Chicken",
+    "cat": "Non-Veg Appetizers",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Dal Palak",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 5200,
+    "medium": 8400,
+    "large": 13600
+  },
+  {
+    "name": "Dal Tadka",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 5200,
+    "medium": 8400,
+    "large": 13600
+  },
+  {
+    "name": "Dal Makhni",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6300,
+    "medium": 9400,
+    "large": 15600
+  },
+  {
+    "name": "Baingan Curry",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Bhindi Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Balti Paneer",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Tofu Chole Curry",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Paneer Methi Malai",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Matar Paneer Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Mushroom Butter Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Paneer Butter Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Tofu Butter Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Kadai Corn Mushroom",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Kadai Veg",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Veg Tikka Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Mushroom Tikka Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Veg Jalfrezi",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Paneer Jalfrezi",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Veg Malabar",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Paneer Korma",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Kaju Kasuri Methi",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 13600,
+    "large": 20300
+  },
+  {
+    "name": "Chole Saag Curry",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Amritsari Chole Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Aloo Gobi Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Matar Mushroom Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Veg Chettinad",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Paneer Chettinad",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 6800,
+    "medium": 12000,
+    "large": 15600
+  },
+  {
+    "name": "Malai Koftha",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 14100,
+    "large": 16700
+  },
+  {
+    "name": "Palak Koftha",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 14100,
+    "large": 16700
+  },
+  {
+    "name": "Palak Paneer",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 14100,
+    "large": 16700
+  },
+  {
+    "name": "Amritsari Paneer Bhurji",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Amul Cheese Paneer Butter Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 9400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Kadai Paneer",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Tofu Tikka Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Paneer Tikka Masala",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Navratan Korma",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Paneer Gongura",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Veg Gongura",
+    "cat": "Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 13000,
+    "large": 15600
+  },
+  {
+    "name": "Butter Chicken",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Methi Malai Chicken",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Kadai Chicken",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Vindaloo",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Malabar",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chef Special Chicken Curry",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Chettinad",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Gongura",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Rogan Josh",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Chicken Korma",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13600,
+    "large": 16700
+  },
+  {
+    "name": "Lamb Rogan Josh",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Saag",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Vindaloo",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Gongura",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Gongura",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Gongura",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Butter Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Butter Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Butter Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Tikka Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Tikka Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Tikka Masala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Curry",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Curry",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Saagwala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Saagwala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Rogan Josh",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Chettinad",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Chettinad",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Chettinad",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Fish Chettinad",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Vindaloo",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Malabar",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Malabar",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Lamb Korma",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Goat Korma",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Shrimp Korma",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 20800
+  },
+  {
+    "name": "Mango Chicken Curry",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 18800
+  },
+  {
+    "name": "Chicken Saagwala",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 7800,
+    "medium": 14100,
+    "large": 18200
+  },
+  {
+    "name": "Fish Vindaloo",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Fish Malabar",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 19800
+  },
+  {
+    "name": "Kadai Lamb",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 21900
+  },
+  {
+    "name": "Kadai Goat",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 21900
+  },
+  {
+    "name": "Egg Curry",
+    "cat": "Non-Veg Entrees",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14600,
+    "large": 18800
+  },
+  {
+    "name": "Veg Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 14600
+  },
+  {
+    "name": "Paneer Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 7300,
+    "medium": 12500,
+    "large": 15600
+  },
+  {
+    "name": "Chicken Biryani (with Bone)",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Vijaywada Chicken Biryani (Boneless)",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Chicken Tikka Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Fish Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Goat Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Lamb Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Shrimp Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 8400,
+    "medium": 14100,
+    "large": 17700
+  },
+  {
+    "name": "Egg Biryani",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 7300,
+    "medium": 13000,
+    "large": 15600
+  },
+  {
+    "name": "Plain Rice",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 3200,
+    "medium": 5200,
+    "large": 8400
+  },
+  {
+    "name": "Ghee Rice with Nuts",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 4200,
+    "medium": 6300,
+    "large": 10400
+  },
+  {
+    "name": "Jeera Rice",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 4200,
+    "medium": 6300,
+    "large": 10400
+  },
+  {
+    "name": "Masala Rice",
+    "cat": "Biryani & Rice",
+    "type": "tray",
+    "small": 4200,
+    "medium": 6300,
+    "large": 10400
+  },
+  {
+    "name": "Naan / Roti",
+    "cat": "Breads",
+    "type": "each",
+    "unit": 400,
+    "min": 20
+  },
+  {
+    "name": "Garlic Naan",
+    "cat": "Breads",
+    "type": "each",
+    "unit": 500,
+    "min": 20
+  },
+  {
+    "name": "Onion, Lemon & Chilli",
+    "cat": "Sides",
+    "type": "tray",
+    "small": 3200,
+    "medium": 5200,
+    "large": 7800
+  },
+  {
+    "name": "Mint Sauce (32 oz)",
+    "cat": "Sides",
+    "type": "fixed",
+    "price": 2100
+  },
+  {
+    "name": "Tamarind Sauce (32 oz)",
+    "cat": "Sides",
+    "type": "fixed",
+    "price": 2100
+  },
+  {
+    "name": "Raitha (32 oz)",
+    "cat": "Sides",
+    "type": "fixed",
+    "price": 2600
+  },
+  {
+    "name": "Papad",
+    "cat": "Sides",
+    "type": "each",
+    "unit": 200,
+    "min": 20
+  },
+  {
+    "name": "Gulab Jamun",
+    "cat": "Desserts",
+    "type": "pack",
+    "options": [
+      {
+        "qty": 20,
+        "unit": 300
+      },
+      {
+        "qty": 30,
+        "unit": 200
+      },
+      {
+        "qty": 50,
+        "unit": 200
+      }
+    ]
+  },
+  {
+    "name": "Rasmalai",
+    "cat": "Desserts",
+    "type": "pack",
+    "options": [
+      {
+        "qty": 21,
+        "unit": 300
+      },
+      {
+        "qty": 30,
+        "unit": 200
+      },
+      {
+        "qty": 50,
+        "unit": 200
+      }
+    ]
+  },
+  {
+    "name": "Carrot Halwa",
+    "cat": "Desserts",
+    "type": "tray",
+    "small": 7800,
+    "medium": 11500,
+    "large": 15600
+  },
+  {
+    "name": "Moong Dal Halwa",
+    "cat": "Desserts",
+    "type": "tray",
+    "small": 7800,
+    "medium": 11500,
+    "large": 15600
+  },
+  {
+    "name": "Pineapple Halwa",
+    "cat": "Desserts",
+    "type": "tray",
+    "small": 7800,
+    "medium": 11500,
+    "large": 15600
+  }
 ]
