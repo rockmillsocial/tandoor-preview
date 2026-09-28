@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#9f2d1f">
+  <link rel="icon" href="data:,">
+  <title>Tandoor Indian Cuisine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260927d">
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+<header class="topbar" aria-label="Primary navigation">
+  <a class="header-logo" href="index.html" aria-label="Tandoor Indian Cuisine home"><img src="images/logo.jpg" alt="Tandoor Indian Cuisine logo" width="720" height="640"></a>
+  <nav class="navlinks">
+    <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="catering.html">Catering</a><a href="index.html#visit">Hours</a>
+  </nav>
+  <a class="order-btn" href="menu.html">Order Online <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Our famous lunch buffet</div>
+    <h1>Lunch is served.</h1>
+    <p>A generous spread of Indian favorites, warm from the kitchen in Rock Hill.</p>
+    <div class="hero-actions"><a class="order-btn" href="menu.html">Start an Order</a><a class="ghost-btn" href="menu.html">Explore the Menu</a></div>
+    <p class="hero-note">Pickup available &mdash; order ahead and skip the wait.</p>
+  </div>
+</section>
+<section class="section" id="buffet">
+  <div class="container buffet">
+    <div class="buffet-photo"><img src="images/buffet.jpg" alt="A warm buffet line with open chafing dishes of curries and tandoori items" width="4090" height="2727"></div>
+    <div><div class="section-kicker">The midday favorite</div><h2>Our Famous Lunch Buffet</h2><p class="lead">Discover a changing spread of comforting curries, fragrant rice, tandoori favorites and more.</p><p>Call for today’s spread.</p><a class="call-link" href="tel:+18036593434">+1 (803) 659-3434</a></div>
+  </div>
+</section>
+<section class="craft">
+  <div class="craft-grid">
+    <div class="craft-image"><img src="images/tandoor.jpg" alt="Chicken tikka skewers roasting inside a traditional clay tandoor oven" width="4912" height="3264" loading="lazy"></div>
+    <div class="craft-copy"><div class="section-kicker">From the clay oven</div><h2>Fire, spice and a proper char.</h2><p>Yogurt-marinated meats and paneer meet the heat of the tandoor for deep flavor and crisp edges.</p><div class="price-row"><strong>Chicken Tikka</strong><span>$17.99</span></div><div class="price-row"><strong>Tandoori Chicken</strong><span>$17.99</span></div><div class="price-row"><strong>Makhmali Paneer Angara</strong><span>$17.99</span></div><a class="order-btn" style="align-self:flex-start;margin-top:22px" href="menu.html">Start an Order</a></div>
+  </div>
+</section>
+<section class="section visit" id="visit">
+  <div class="container visit-card">
+    <div class="visit-copy"><div class="section-kicker" style="color:#ffd47b">Plan your visit</div><h2>Come hungry.</h2><address>991 N Anderson Rd<br>Rock Hill, SC 29732</address><a class="call-link" style="color:#fff" href="tel:+18036593434">+1 (803) 659-3434</a><div class="hours"><div class="hours-row"><strong>Monday</strong><span>Closed</span></div><div class="hours-row"><strong>Tuesday–Sunday</strong><span>11:30 AM–2:30 PM</span></div><div class="hours-row"><span></span><span>4:30 PM–9:00 PM</span></div></div><a class="order-btn" href="menu.html">Start an Order</a></div>
+    <div class="visit-image"><img src="images/naan.jpg" alt="Fresh garlic naan brushed with butter and herbs" width="500" height="500" loading="lazy"></div>
+  </div>
+</section>
+</main>
+<footer><div class="footer-inner"><div><div class="footer-name">TANDOOR &mdash; An Authentic Indian Cuisine</div><div>991 N Anderson Rd, Rock Hill, SC 29732</div><a href="tel:+18036593434">+1 (803) 659-3434</a></div><div class="footer-links"><a href="index.html">Home</a><a href="catering.html">Catering</a><a href="menu.html">Menu</a><a href="index.html#visit">Hours</a><a class="linklike" href="menu.html">Order Online</a></div></div></footer>
+<div class="mobile-order"><a class="order-btn" href="menu.html">Start an Order <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+<script src="https://checkout.clover.com/sdk.js"></script>
+<script src="https://js.stripe.com/v3/"></script>
+<script src="order.js?v=stripe1"></script>
+
+</body></html>
