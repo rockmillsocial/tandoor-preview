@@ -117,7 +117,8 @@ function cateringMath() {
   // Display-only math; the server recomputes authoritatively.
   var sub = catCartSubtotal();
   var fee = cateringFulfillment === 'delivery' ? CATERING_FEE : 0;
-  var tax = Math.round((sub + fee) * TAX_RATE);
+  // Decided 2026-09-28 (Simit): no sales tax on the catering delivery fee.
+  var tax = Math.round(sub * TAX_RATE);
   return { sub: sub, reward: 0, effSub: sub, fee: fee, tax: tax, tip: 0, total: sub + fee + tax };
 }
 function fmtDateInput(d) {
