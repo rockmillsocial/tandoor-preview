@@ -475,7 +475,17 @@ function restoreCheckoutFields(f) {
   if (!f) return;
   var s = function (id, v) { var el = body.querySelector('#' + id); if (el && v) el.value = v; };
   s('t-name', f.name); s('t-phone', f.phone); s('t-email', f.email); s('t-note', f.note);
-  s('t-cat-date', f.date); s('t-cat-time', f.time); s('t-spice', f.spice);
+  // A saved catering date may have aged into the 48-hour window (or past 3 months)
+  // since it was picked. Programmatic restore bypasses the input's min/max, so
+  // clamp here — never restore a date that is no longer bookable.
+  (function () {
+    var el = body.querySelector('#t-cat-date');
+    if (el && f.date) {
+      var mn = el.getAttribute('min'), mx = el.getAttribute('max');
+      if ((!mn || f.date >= mn) && (!mx || f.date <= mx)) el.value = f.date;
+    }
+  })();
+  s('t-cat-time', f.time); s('t-spice', f.spice);
   s('t-addr-street', f.street); s('t-addr-city', f.city); s('t-addr-state', f.state); s('t-addr-zip', f.zip);
   if (orderMode === 'catering' && (f.fulfillment === 'delivery' || f.fulfillment === 'pickup')) {
     cateringFulfillment = f.fulfillment;
@@ -643,9 +653,47 @@ function catDishCard(it) {
    carry the raised prices; every orderable dish gets the same selectors +
    Add button as menu.html catering mode, wired to the shared catering cart.
    Dishes with no menu match (e.g. "call for price") stay static. */
+/* catering.html: turn each static category section into a collapsible dropdown.
+   Tapping a category header (e.g. "Desserts") expands it to show that category's
+   dishes with their Add buttons. Exclusive accordion: opening one closes the rest. */
+function foldCateringSections() {
+  var host = document.getElementById('cateringMenuSections');
+  if (!host) return;
+  var secs = host.querySelectorAll('section.menu-category');
+  for (var i = 0; i < secs.length; i++) {
+    (function (sec) {
+      if (sec.tagName === 'DETAILS') return;
+      var h = sec.querySelector('h3');
+      var grid = sec.querySelector('.dish-grid');
+      if (!h || !grid) return;
+      var det = document.createElement('details');
+      det.className = sec.className + ' cat-fold';
+      det.setAttribute('name', 'catmenu');
+      var sum = document.createElement('summary');
+      sum.className = 'cat-fold-head';
+      var title = document.createElement('span');
+      title.className = 'cat-fold-title';
+      title.textContent = h.textContent.trim();
+      var count = document.createElement('span');
+      count.className = 'cat-fold-count';
+      var n = grid.querySelectorAll('article.dish').length;
+      count.textContent = n + (n === 1 ? ' item' : ' items');
+      var chev = document.createElement('span');
+      chev.className = 'cat-fold-chev';
+      chev.setAttribute('aria-hidden', 'true');
+      sum.appendChild(title);
+      sum.appendChild(count);
+      sum.appendChild(chev);
+      det.appendChild(sum);
+      det.appendChild(grid);
+      sec.parentNode.replaceChild(det, sec);
+    })(secs[i]);
+  }
+}
 function enhanceCateringPage() {
   var host = document.getElementById('cateringMenuSections');
   if (!host) return;
+  foldCateringSections();
   var cards = host.querySelectorAll('article.dish[data-cat-name]');
   for (var i = 0; i < cards.length; i++) {
     var card = cards[i];
@@ -1070,9 +1118,16 @@ function renderCateringCheckout() {
     r.addEventListener('change', catFulChanged);
   });
   body.querySelector('#t-cat-date').addEventListener('change', function () {
-    var v = body.querySelector('#t-cat-date').value;
+    var dateEl = body.querySelector('#t-cat-date');
+    var v = dateEl.value;
     if (!v) return;
     var errBox = body.querySelector('#t-err');
+    var mn = dateEl.getAttribute('min'), mx = dateEl.getAttribute('max');
+    if ((mn && v < mn) || (mx && v > mx)) {
+      dateEl.value = '';
+      showErr('Catering needs at least 48 hours notice and can be booked up to 3 months out \u2014 please pick a date in that window.');
+      return;
+    }
     if (new Date(v + 'T00:00:00').getDay() === 1) {
       showErr('We\u2019re closed on Mondays \u2014 please pick another day.');
     } else if (errBox) {

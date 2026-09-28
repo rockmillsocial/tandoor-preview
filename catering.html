@@ -15,6 +15,16 @@
   <style>
     /* Catering has its own Add / View Order flow; hide the regular-order CTAs on this page. */
     .topbar .order-btn, .mobile-order { display: none !important; }
+    /* Category dropdowns: each catering category is a collapsible <details>. */
+    #cateringMenuSections .menu-category.cat-fold { padding: 0; border: 1px solid var(--line); border-radius: 14px; margin: 0 0 12px; overflow: hidden; background: var(--surface); }
+    .cat-fold-head { display: flex; align-items: center; gap: 10px; padding: 15px 18px; cursor: pointer; list-style: none; }
+    .cat-fold-head::-webkit-details-marker { display: none; }
+    .cat-fold-title { flex: 1; font: 700 1.5rem/1.2 "Cormorant Garamond", serif; color: var(--red); }
+    .cat-fold-count { font-size: .82rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+    .cat-fold-chev { width: 22px; height: 22px; flex: none; border-radius: 50%; border: 1.5px solid var(--muted); position: relative; transition: transform .2s ease; }
+    .cat-fold-chev::after { content: ""; position: absolute; left: 6px; top: 4px; width: 7px; height: 7px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); }
+    details[open].cat-fold .cat-fold-chev { transform: rotate(180deg); }
+    #cateringMenuSections .cat-fold .dish-grid { padding: 4px 18px 18px; }
   </style>
 </head>
 <body>
