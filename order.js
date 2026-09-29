@@ -162,8 +162,9 @@ function fmtTime12(hhmm) {
    Spice Level / No Mild / No Spicy, Sauce, Fountain Drink, Can Soda, Papad,
    Ghee Rice and Bowl Of Rice are REQUIRED pick-one. Add-on is OPTIONAL pick-one.
    Family packs (2026-09-29): $0 base, price from required choice; the biryani
-   pack also asks the required Free Appetizer question. Kids menu: no questions
-   (per Simit). */
+   pack also asks the required Free Appetizer question.
+   Kids menu (2026-09-29): Kids Drink and Kids dessert are OPTIONAL pick-one,
+   per the Clover modifier groups on the five kids dishes. */
 var MOD_QUESTIONS = {
   spice:    { title: 'How spicy?', required: true, multi: false,
               options: ['Very Mild', 'Mild', 'Medium', 'Spicy', '911 FIRE'] },
@@ -200,6 +201,13 @@ var MOD_QUESTIONS = {
               options: [['Veg', 2800], ['Paneer', 3200], ['Chicken', 3500], ['Shrimp', 3500]] },
   freeapp:   { title: 'Pick your free appetizer', required: true, multi: false,
               options: ['Chicken 65', 'Chicken 555', 'Gobi Manchurian', 'Gobi 65'] },
+  // Kids menu (verified against Clover 2026-09-29): both OPTIONAL pick-one.
+  // Asked on the five kids dishes; Plain Warm Milk has no modifiers in Clover.
+  kidsdrink: { title: 'Pick a kids drink', required: false, multi: false,
+              options: ['Coke', 'Diet Coke', 'Sprite', 'Fanta', 'Ginger Ale',
+                        'Lemonade', 'Orange Juice', 'Water'] },
+  kids:      { title: 'Add a free dessert?', required: false, multi: false,
+              options: ['Gulab Jamun'] },
 };
 
 // Dish questions, verified against the Clover modifier setup on 2026-09-24.
@@ -233,6 +241,7 @@ const DISH_MODS = {
   'Chicken Lollipop': ['spice'],
   'Chicken Malabar': ['spice','addon'],
   'Chicken Manchurian': ['spice'],
+  'Chicken Nuggets & Fries': ['kidsdrink','kids'],
   'Chicken RoganJosh': ['spice','addon'],
   'Chicken Saagwala': ['spice','addon'],
   'Chicken Tikka': ['spice'],
@@ -252,6 +261,7 @@ const DISH_MODS = {
   'Fish Malabar': ['spice','addon'],
   'Fish Manchurian': ['spice'],
   'Fountain Drink': ['fountain'],
+  'French Fries': ['kidsdrink','kids'],
   'Ghee Rice': ['gheerice'],
   'Goat Biryani': ['spice'],
   'Goat Curry': ['spice','addon'],
@@ -265,6 +275,8 @@ const DISH_MODS = {
   'Hakka Noodles VEG': ['spice'],
   'Harabhara Paneer Kebab': ['spice'],
   'Jeera Rice': ['gheerice'],
+  'Jr. Butter Chicken': ['kidsdrink','kids'],
+  'Jr. Paneer Butter Masala': ['kidsdrink','kids'],
   'Kadai Chicken': ['spice','addon'],
   'Kadai Corn Mushroom': ['spice','addon'],
   'Kaju Kasuri Methi': ['spice','addon'],
@@ -285,6 +297,7 @@ const DISH_MODS = {
   'Masala Papad (2)': ['spice','papad'],
   'Matar Paneer': ['spice','addon'],
   'Methi Malai Chicken': ['spice','addon'],
+  'Mozzarella Sticks & Fries': ['kidsdrink','kids'],
   'Mushroom Butter Masala': ['spice','addon'],
   'Mushroom Tikka Masala': ['spice','addon'],
   'Navratan Korma': ['spice','addon'],
