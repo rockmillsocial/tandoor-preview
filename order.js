@@ -206,14 +206,15 @@ var MOD_QUESTIONS = {
   kidsdrink: { title: 'Pick a kids drink', required: false, multi: false,
               options: ['Coke', 'Diet Coke', 'Sprite', 'Fanta', 'Ginger Ale',
                         'Lemonade', 'Orange Juice', 'Water'] },
-  kids:      { title: 'Add a free dessert?', required: false, multi: false,
-              options: ['Gulab Jamun'] },
+  kids:      { title: 'Add a dessert?', required: false, multi: false,
+              options: [['Gulab Jamun', 250]] },
 };
 
 // Dish questions, verified against the Clover modifier setup on 2026-09-24.
 // Key: website dish name -> question keys. Spice Level/No Mild/No Spicy and
 // Sauce/Fountain/Can Soda/Papad/Ghee Rice/Bowl Of Rice are required pick-one;
-// Add-on is optional pick-one. Kids menu: no questions (per Simit).
+// Add-on is optional pick-one. Kids menu asks the optional Kids Drink and
+// Kids (Gulab Jamun, $2.50) questions, per Simit and the Clover setup.
 const DISH_MODS = {
   'Achari Chicken Curry': ['nomild','addon'],
   'Aloo Gobi Masala': ['spice','addon'],
