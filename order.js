@@ -8,7 +8,7 @@
    NOTE: the Clover hosted-iframe code below is kept intact but unused. */
 (function () {
 'use strict';
-var MENU_PRICES = {"Tomato Soup":799,"Lentil Soup":699,"Sweetcorn Soup (VEG.)":699,"Monchow Soup":699,"Chef Special Chicken Soup":899,"Chicken Monchow Soup":899,"Chef Special Lamb Soup":899,"Sweetcorn Soup (CHICKEN)":799,"Samosa":899,"Mixed Pakora":1299,"Masala Papad (2)":699,"Chilli Paneer":1599,"Samosa Chaat":1199,"Onion Pakora":1299,"Gobi Manchurian":1599,"Papad":399,"Soy Chaap Masala":1599,"Paneer Darbar":1699,"Baby Corn Darbar":1599,"Gobi 65":1499,"Corn Patta Chaat":1299,"Bombay Bhel":1299,"Pani Puri":1299,"Makhmali Paneer Angara":1799,"Harabhara Paneer Kebab":1799,"Paneer Manchurian":1599,"Chicken Chukka":1799,"Chicken 65":1599,"Chilli Chicken":1599,"Chicken Manchurian":1599,"Fish Manchurian":1599,"Lamb Chukka":1899,"Goat Ghee Roast":1899,"Shrimp 65":1599,"Chicken Darbar":1699,"Chicken Lollipop":1499,"Chicken Tikka":1799,"Malai Chicken (Mild)":1799,"Haryali Chicken (MEDIUM)":1799,"Tandoori Chicken":1799,"Lamb Chops":2599,"Assorted Kebabas":2099,"Tandoori Pompano":2299,"Tandoori Chicken Full":2999,"Tandoori Wings":1199,"Paneer Butter Masala":1899,"Paneer Tikka Masala":1899,"Matar Paneer":1799,"Kadai Corn Mushroom":1799,"Malai Koftha":1799,"Navratan Korma":1899,"Dal Makhni":1799,"Amritsari Chole Masala":1699,"Bhindi Do Pyaza":1799,"Aloo Gobi Masala":1799,"Tofu Tikka Masala":1799,"Mushroom Tikka Masala":1799,"Veg. Malabar":1799,"Dal Palak":1699,"Dal Tadka":1799,"Veg. Chettinad":1799,"Kaju Kasuri Methi":1899,"Palak Paneer":1899,"Amritsari Paneer Bhurji":1899,"Baingan Curry":1799,"Paneer Methi Malai":1899,"Veg. Jalfrezi":1899,"Tofu Chole Curry":1799,"Balti Paneer":1999,"Sham Savera":1899,"Mushroom Butter Masala":1899,"Chicken Korma":1899,"Butter Chicken":1899,"Chicken Tikka Masala":1999,"Chicken Malabar":1899,"Chicken RoganJosh":1999,"Chicken Saagwala":1999,"Chicken Vindalloo":1999,"Kadai Chicken":2099,"Lamb Saagwala":2099,"Lamb RoganJosh":1999,"Lamb Vindalloo":2099,"Lamb Jalfrezi":1999,"Lamb Tikka Masala":2099,"Shrimp Korma":1999,"Goat Curry":2099,"Goat Saagwala":2099,"Methi Malai Chicken":2099,"Mango Chicken Curry":1999,"Chicken Chettinad":1999,"Achari Chicken Curry":1999,"The Sweet Cashew Chicken Curry":2199,"Lamb Chettinad":2099,"Lamb Gongura":2099,"Lamb Korma":2099,"Fish Malabar":1899,"Chicken Gongura":1999,"Chef Special Chicken Curry":1999,"Plain Rice":499,"Jeera Rice":799,"Ghee Rice":799,"Masala Rice":799,"Veg. Biryani":1699,"Paneer Biryani":1799,"Vijaywada Boneless Chicken Biryani":1799,"Chicken Biryani with bone":1899,"Lamb Biryani":1999,"Goat Biryani":1999,"Chicken Tikka Biryani":1999,"Chicken Nuggets & Fries":699,"Mozzarella Sticks & Fries":699,"French Fries":699,"Plain Warm Milk":299,"Jr. Butter Chicken":1099,"Jr. Paneer Butter Masala":1099,"Gulab Jamun":599,"Rasmalai":599,"Carrot Halwa":699,"Mung Daal Halwo":599,"Vegan Lentil Soup":699,"Vegan Sweetcorn Soup":699,"Vegan Samosa":899,"Vegan Panipuri":1299,"Vegan Samosa Chaat":1199,"Vegan Bombay Bhel":1299,"Vegan Corn Patta Chaat":1299,"Vegan Onion Pakora":1299,"Vegan Mixed Pakora":1299,"Vegan Papad":399,"Vegan Masala Papad":699,"Vegan Kadai Corn Mushroom":1899,"Vegan Baingan Curry":1899,"Vegan Veg Jalfrezi":1999,"Vegan Amritsari Chole Masala":1699,"Vegan Bhindi Do Pyaza":1899,"Vegan Aloo Gobi Masala":1799,"Vegan Tofu Tikka Masala":1799,"Vegan Mushroom Tikka Masala":1799,"Vegan Veg. Malabar":1799,"Vegan Dal Palak":1699,"Vegan Dal Tadka":1799,"Vegan Veg Chettinad":1799,"Vegan Plain Roti":449,"Onion Kulcha":599,"Malabar Paratha (2Pc)":699,"Haryali Naan (Mint - Cilantro)":449,"Plain Naan (NO BUTTER)":399,"Butter Naan":499,"Garlic Butter Naan":549,"Chilli Garlic Naan":649,"Cheese Naan":699,"Bullet Naan (CHILLI)":599,"Chilli Cheese Naan":699,"Masala Naan":499,"Chilli Cheese Garlic Naan":699,"Peshwari Naan":699,"Assorted Bread Basket Naan":1499,"Plain Roti (NO BUTTER)":449,"Butter Roti Tandoori":499,"Cheese Garlic Naan":699,"Raita":299,"Onion, Lemon, Chilli":299,"Tikka Sauce":499,"Malai Sauce":499,"Masala Papad":699,"Pickle":199,"Mango Chutney":199,"Mint Chutney":299,"Tamarind Chutney":299,"Veg. Fried Rice":1699,"Paneer Fried Rice":1699,"Chicken Fried Rice":1799,"Shrimp Fried Rice":1799,"Street Style Veg. Fried Rice":1799,"Street Style Paneer Fried Rice":1799,"Street style Chicken Fried Rice":1899,"Street style Shrimp Fried Rice":1899,"Hakka Noodles VEG":1599,"Hakka Noodles Paneer":1599,"Hakka Noodles Chicken":1699,"Hakka Noodles Shrimp":1699,"Street Style Hakka Noodles VEG":1699,"Street Style Hakka Noodles PANEER":1699,"Street Style Hakka Noodles Chicken":1799,"Street Style Hakka Noodles Shrimp":1799,"Veg. Tikka Pasta":1599,"Paneer Tikka Pasta":1599,"Chef. Sp Veg Pasta":1699,"Chef Sp. Paneer Pasta":1699,"Butter Chicken Pasta":1699,"Chicken Tikka Pasta":1699,"Chef Sp. Chicken Pasta":1799,"Water":50,"Mango Lassi":549,"Buttermilk MASALA":499,"Rosemilk":499,"Redbull 12oz":399,"Ginger Masala Tea":499,"Madras Hot Coffee":499,"Fiji Water 500 Ml":399,"Fiji Water 1L":599,"Sweet Tea With Lemon":299,"Fountain Drink":300,"Unsweet Tea":299,"Half & Half Tea":299,"Frootie":300,"Lemonade":299,"Spellegrino Sparkling Water":399,"Orange Juice":300,"Corona Non Alcoholic":500,"Can Soda":300,"Rupee NON ALC":600,"Bottle Water":249};
+var MENU_PRICES = {"Tomato Soup":799,"Lentil Soup":699,"Sweetcorn Soup (VEG.)":699,"Monchow Soup":699,"Chef Special Chicken Soup":899,"Chicken Monchow Soup":899,"Chef Special Lamb Soup":899,"Sweetcorn Soup (CHICKEN)":799,"Samosa":899,"Mixed Pakora":1299,"Masala Papad (2)":699,"Chilli Paneer":1599,"Samosa Chaat":1199,"Onion Pakora":1299,"Gobi Manchurian":1599,"Papad":399,"Soy Chaap Masala":1599,"Paneer Darbar":1699,"Baby Corn Darbar":1599,"Gobi 65":1499,"Corn Patta Chaat":1299,"Bombay Bhel":1299,"Pani Puri":1299,"Makhmali Paneer Angara":1799,"Harabhara Paneer Kebab":1799,"Paneer Manchurian":1599,"Chicken Chukka":1799,"Chicken 65":1599,"Chilli Chicken":1599,"Chicken Manchurian":1599,"Fish Manchurian":1599,"Lamb Chukka":1899,"Goat Ghee Roast":1899,"Shrimp 65":1599,"Chicken Darbar":1699,"Chicken Lollipop":1499,"Chicken Tikka":1799,"Malai Chicken (Mild)":1799,"Haryali Chicken (MEDIUM)":1799,"Tandoori Chicken":1799,"Lamb Chops":2599,"Assorted Kebabas":2099,"Tandoori Pompano":2299,"Tandoori Chicken Full":2999,"Tandoori Wings":1199,"Paneer Butter Masala":1899,"Paneer Tikka Masala":1899,"Matar Paneer":1799,"Kadai Corn Mushroom":1799,"Malai Koftha":1799,"Navratan Korma":1899,"Dal Makhni":1799,"Amritsari Chole Masala":1699,"Bhindi Do Pyaza":1799,"Aloo Gobi Masala":1799,"Tofu Tikka Masala":1799,"Mushroom Tikka Masala":1799,"Veg. Malabar":1799,"Dal Palak":1699,"Dal Tadka":1799,"Veg. Chettinad":1799,"Kaju Kasuri Methi":1899,"Palak Paneer":1899,"Amritsari Paneer Bhurji":1899,"Baingan Curry":1799,"Paneer Methi Malai":1899,"Veg. Jalfrezi":1899,"Tofu Chole Curry":1799,"Balti Paneer":1999,"Sham Savera":1899,"Mushroom Butter Masala":1899,"Chicken Korma":1899,"Butter Chicken":1899,"Chicken Tikka Masala":1999,"Chicken Malabar":1899,"Chicken RoganJosh":1999,"Chicken Saagwala":1999,"Chicken Vindalloo":1999,"Kadai Chicken":2099,"Lamb Saagwala":2099,"Lamb RoganJosh":1999,"Lamb Vindalloo":2099,"Lamb Jalfrezi":1999,"Lamb Tikka Masala":2099,"Shrimp Korma":1999,"Goat Curry":2099,"Goat Saagwala":2099,"Methi Malai Chicken":2099,"Mango Chicken Curry":1999,"Chicken Chettinad":1999,"Achari Chicken Curry":1999,"The Sweet Cashew Chicken Curry":2199,"Lamb Chettinad":2099,"Lamb Gongura":2099,"Lamb Korma":2099,"Fish Malabar":1899,"Chicken Gongura":1999,"Chef Special Chicken Curry":1999,"Plain Rice":499,"Jeera Rice":799,"Ghee Rice":799,"Masala Rice":799,"Veg. Biryani":1699,"Paneer Biryani":1799,"Vijaywada Boneless Chicken Biryani":1799,"Chicken Biryani with bone":1899,"Lamb Biryani":1999,"Goat Biryani":1999,"Chicken Tikka Biryani":1999,"Family Pack Biryani":0,"Chicken Nuggets & Fries":699,"Mozzarella Sticks & Fries":699,"French Fries":699,"Plain Warm Milk":299,"Jr. Butter Chicken":1099,"Jr. Paneer Butter Masala":1099,"Gulab Jamun":599,"Rasmalai":599,"Carrot Halwa":699,"Mung Daal Halwo":599,"Vegan Lentil Soup":699,"Vegan Sweetcorn Soup":699,"Vegan Samosa":899,"Vegan Panipuri":1299,"Vegan Samosa Chaat":1199,"Vegan Bombay Bhel":1299,"Vegan Corn Patta Chaat":1299,"Vegan Onion Pakora":1299,"Vegan Mixed Pakora":1299,"Vegan Papad":399,"Vegan Masala Papad":699,"Vegan Kadai Corn Mushroom":1899,"Vegan Baingan Curry":1899,"Vegan Veg Jalfrezi":1999,"Vegan Amritsari Chole Masala":1699,"Vegan Bhindi Do Pyaza":1899,"Vegan Aloo Gobi Masala":1799,"Vegan Tofu Tikka Masala":1799,"Vegan Mushroom Tikka Masala":1799,"Vegan Veg. Malabar":1799,"Vegan Dal Palak":1699,"Vegan Dal Tadka":1799,"Vegan Veg Chettinad":1799,"Vegan Plain Roti":449,"Onion Kulcha":599,"Malabar Paratha (2Pc)":699,"Haryali Naan (Mint - Cilantro)":449,"Plain Naan (NO BUTTER)":399,"Butter Naan":499,"Garlic Butter Naan":549,"Chilli Garlic Naan":649,"Cheese Naan":699,"Bullet Naan (CHILLI)":599,"Chilli Cheese Naan":699,"Masala Naan":499,"Chilli Cheese Garlic Naan":699,"Peshwari Naan":699,"Assorted Bread Basket Naan":1499,"Plain Roti (NO BUTTER)":449,"Butter Roti Tandoori":499,"Cheese Garlic Naan":699,"Raita":299,"Onion, Lemon, Chilli":299,"Tikka Sauce":499,"Malai Sauce":499,"Masala Papad":699,"Pickle":199,"Mango Chutney":199,"Mint Chutney":299,"Tamarind Chutney":299,"Veg. Fried Rice":1699,"Paneer Fried Rice":1699,"Chicken Fried Rice":1799,"Shrimp Fried Rice":1799,"Street Style Veg. Fried Rice":1799,"Street Style Paneer Fried Rice":1799,"Street style Chicken Fried Rice":1899,"Street style Shrimp Fried Rice":1899,"Hakka Noodles VEG":1599,"Hakka Noodles Paneer":1599,"Hakka Noodles Chicken":1699,"Hakka Noodles Shrimp":1699,"Street Style Hakka Noodles VEG":1699,"Street Style Hakka Noodles PANEER":1699,"Street Style Hakka Noodles Chicken":1799,"Street Style Hakka Noodles Shrimp":1799,"Family Pack Hakka Noodles (58 Oz)":0,"Family Pack Fried Rice (58 Oz)":0,"Veg. Tikka Pasta":1599,"Paneer Tikka Pasta":1599,"Chef. Sp Veg Pasta":1699,"Chef Sp. Paneer Pasta":1699,"Butter Chicken Pasta":1699,"Chicken Tikka Pasta":1699,"Chef Sp. Chicken Pasta":1799,"Water":50,"Mango Lassi":549,"Buttermilk MASALA":499,"Rosemilk":499,"Redbull 12oz":399,"Ginger Masala Tea":499,"Madras Hot Coffee":499,"Fiji Water 500 Ml":399,"Fiji Water 1L":599,"Sweet Tea With Lemon":299,"Fountain Drink":300,"Unsweet Tea":299,"Half & Half Tea":299,"Frootie":300,"Lemonade":299,"Spellegrino Sparkling Water":399,"Orange Juice":300,"Corona Non Alcoholic":500,"Can Soda":300,"Rupee NON ALC":600,"Bottle Water":249};
 var CLOVER_PK = 'ad2f8be87c9d3351c43532727f62abaf';
 var TAX_RATE = 0.09;
 
@@ -24,8 +24,9 @@ var CATERING_CATS = ['Veg Appetizers', 'Non-Veg Appetizers', 'Veg Entrees', 'Non
 var TRAY_LABEL = { small: 'Small Tray', medium: 'Medium Tray', large: 'Large Tray' };
 var TRAY_SERVES = { small: 'Serves 8\u201310', medium: 'Serves 16\u201318', large: 'Serves 23\u201325' };
 var orderMode = 'pickup'; // 'pickup' | 'catering'
-var CATERING_SLOTS = ['11:30','12:00','12:30','13:00','13:30','14:00',
-                      '16:30','17:00','17:30','18:00','18:30','19:00','19:30','20:00','20:30'];
+var CATERING_SLOTS = ['11:30','12:00','12:30','13:00','13:30','14:00','14:30',
+                      '15:00','15:30','16:00','16:30','17:00','17:30','18:00',
+                      '18:30','19:00','19:30','20:00'];
 var CATERING_FEE = 10000; // $100 flat catering delivery fee, in cents
 var cateringFulfillment = 'pickup'; // fulfillment choice on the catering form
 
@@ -160,7 +161,9 @@ function fmtTime12(hhmm) {
    Verified against the Clover modifier setup on 2026-09-24.
    Spice Level / No Mild / No Spicy, Sauce, Fountain Drink, Can Soda, Papad,
    Ghee Rice and Bowl Of Rice are REQUIRED pick-one. Add-on is OPTIONAL pick-one.
-   Kids menu: no questions (per Simit). */
+   Family packs (2026-09-29): $0 base, price from required choice; the biryani
+   pack also asks the required Free Appetizer question. Kids menu: no questions
+   (per Simit). */
 var MOD_QUESTIONS = {
   spice:    { title: 'How spicy?', required: true, multi: false,
               options: ['Very Mild', 'Mild', 'Medium', 'Spicy', '911 FIRE'] },
@@ -183,6 +186,20 @@ var MOD_QUESTIONS = {
               options: [['Without Nuts', 0], ['With Nuts', 100]] },
   bowlrice: { title: 'Pick your rice', required: true, multi: false,
               options: [['Basmati Rice', 300], ['Masala Rice', 400]] },
+  // Family packs (verified against Clover 2026-09-29): $0 base item, the
+  // price comes from the required choice below. All three are required
+  // pick-one, exactly like the Clover modifier groups.
+  fambiryani: { title: 'Pick your biryani', required: true, multi: false,
+              options: [['Veg Biryani', 3500], ['Paneer Biryani', 3500],
+                         ['Boneless Chicken Biryani', 4000], ['Lamb Biryani', 4200],
+                         ['Goat Biryani', 4200], ['With Bone Chicken Biryani', 4000],
+                         ['Chicken Lollipop Biryani', 4000]] },
+  famnoodles: { title: 'Pick your noodles', required: true, multi: false,
+              options: [['Chicken', 3500], ['Veg', 2800], ['Paneer', 3200], ['Shrimp', 3500]] },
+  famfriedrice: { title: 'Pick your fried rice', required: true, multi: false,
+              options: [['Veg', 2800], ['Paneer', 3200], ['Chicken', 3500], ['Shrimp', 3500]] },
+  freeapp:   { title: 'Pick your free appetizer', required: true, multi: false,
+              options: ['Chicken 65', 'Chicken 555', 'Gobi Manchurian', 'Gobi 65'] },
 };
 
 // Dish questions, verified against the Clover modifier setup on 2026-09-24.
@@ -229,7 +246,9 @@ const DISH_MODS = {
   'Dal Makhni': ['spice','addon'],
   'Dal Palak': ['spice','addon'],
   'Dal Tadka': ['spice'],
-  'Family Pack Hakka Noodles (58 Oz)': ['spice'],
+  'Family Pack Biryani': ['spice','fambiryani','freeapp'],
+  'Family Pack Fried Rice (58 Oz)': ['spice','famfriedrice'],
+  'Family Pack Hakka Noodles (58 Oz)': ['spice','famnoodles'],
   'Fish Malabar': ['spice','addon'],
   'Fish Manchurian': ['spice'],
   'Fountain Drink': ['fountain'],
@@ -354,9 +373,9 @@ Object.keys(cart).forEach(function (k) {
   if (typeof cart[k] === 'number') {
     var q = cart[k];
     delete cart[k];
-    if (MENU_PRICES[k] && q >= 1) cart[cartKey(k, [])] = { name: k, qty: Math.min(20, q), mods: [] };
+    if (MENU_PRICES[k] !== undefined && q >= 1) cart[cartKey(k, [])] = { name: k, qty: Math.min(20, q), mods: [] };
   } else if (cart[k] && typeof cart[k] === 'object') {
-    if (!MENU_PRICES[cart[k].name]) delete cart[k];
+    if (MENU_PRICES[cart[k].name] === undefined) delete cart[k];
     if (!Array.isArray(cart[k].mods)) cart[k].mods = [];
   } else {
     delete cart[k];
@@ -439,14 +458,12 @@ function showView(view) {
 
 /* ---------- pickup / catering mode toggle (cart is shared; switching never loses it) ---------- */
 function modeToggleHtml() {
-  var tabs = orderMode === 'catering'
-    ? '<button type="button" class="t-tip active" data-mode="catering">Catering</button>'
-    : '<button type="button" class="t-tip active" data-mode="pickup">Pickup</button>' +
-      '<button type="button" class="t-tip" data-mode="catering">Catering</button>';
-  return '<div class="t-tips" style="margin-bottom:10px">' + tabs + '</div>' +
-    (orderMode === 'catering'
-      ? '<div style="font-size:.82rem;color:var(--muted);margin:-2px 0 10px">Catering menu: tray prices (Small serves 8\u201310, Medium 16\u201318, Large 23\u201325). Pickup free \u00B7 delivery $100 within 20 miles.</div>'
-      : '');
+  // Regular menu (pickup) mode: no toggle — customers can't accidentally
+  // switch to catering mid-order. Catering lives on catering.html.
+  if (orderMode !== 'catering') return '';
+  return '<div class="t-tips" style="margin-bottom:10px">' +
+    '<button type="button" class="t-tip active" data-mode="catering">Catering</button></div>' +
+    '<div style="font-size:.82rem;color:var(--muted);margin:-2px 0 10px">Catering menu: tray prices (Small serves 8\u201310, Medium 16\u201318, Large 23\u201325). Pickup free \u00B7 delivery $100 within 20 miles.</div>';
 }
 function setOrderMode(mode) {
   if (mode !== 'pickup' && mode !== 'catering') return;
@@ -967,6 +984,19 @@ function renderCheckoutView() {
     '<div class="t-field"><label for="t-email">Email <span style="font-weight:400;color:var(--muted)">(receipt)</span> <span class="t-star" aria-hidden="true">*</span></label><input id="t-email" inputmode="email" autocomplete="email" placeholder="you@example.com"></div>' +
     '<div class="t-fulfill"><label class="sel" style="cursor:default"><input type="radio" checked disabled>Pickup</label>' +
     '<span style="font-size:.85rem;color:var(--muted)">Pickup only &mdash; for delivery, find us on DoorDash, Uber Eats, or Grubhub.</span></div>' +
+    '<div class="t-field"><label>When do you want to pick up?</label>' +
+    '<div class="t-fulfill">' +
+    '<label class="sel"><input type="radio" name="t-pickup-type" value="asap" checked>ASAP &mdash; ready in about 30 mins</label>' +
+    '<label><input type="radio" name="t-pickup-type" value="scheduled">Schedule for later</label>' +
+    '</div></div>' +
+    '<div id="t-pickup-sched" style="display:none">' +
+    '<div class="t-field"><label for="t-pickup-date">Pickup date <span class="t-star" aria-hidden="true">*</span></label>' +
+    '<input type="date" id="t-pickup-date">' +
+    '<div style="font-size:.82rem;color:var(--muted);margin-top:4px">We\u2019re closed on Mondays.</div></div>' +
+    '<div class="t-field"><label for="t-pickup-time">Pickup time <span class="t-star" aria-hidden="true">*</span></label>' +
+    '<select id="t-pickup-time"><option value="">Choose a date first</option></select>' +
+    '<div style="font-size:.82rem;color:var(--muted);margin-top:4px">11:15 AM \u2013 2:45 PM & 5:10 \u2013 9:00 PM. Closed 2:45 \u2013 5:10 PM daily.</div></div>' +
+    '</div>' +
     '<div class="t-field"><label for="t-note">Note for the kitchen <span style="font-weight:400;color:var(--muted)">(optional)</span></label><textarea id="t-note" placeholder="e.g. extra spicy, no onions"></textarea></div>' +
     '<div class="t-field"><label>Add a tip <span style="font-weight:400;color:var(--muted)">(optional)</span></label>' +
     '<div class="t-tips">' +
@@ -989,6 +1019,8 @@ function renderCheckoutView() {
     '<div class="t-secure">You pay exactly this total. Card details are entered on the next step into Stripe\u2019s secure fields and never touch this website.</div>';
 
   foot.querySelector('#t-back').addEventListener('click', function () { showView('cart'); });
+
+  bindPickupScheduler();
 
   var tipBtns = body.querySelectorAll('.t-tip');
   var customInput = body.querySelector('#t-tip-custom');
@@ -1229,6 +1261,7 @@ function startStripePayment() {
     tip_cents: m.tip,
     reward_cents: rewApplied,
     note: form.note,
+    pickup: form.pickup,
     idemKey: idemKey
   };
   if (isCatering) {
@@ -1385,6 +1418,117 @@ function showErr(msg) {
 function fulfillment() {
   return { type: 'pickup', address: '' };
 }
+
+/* ---------- regular pickup scheduling ---------- */
+// Hours: lunch 11:15 AM - 2:45 PM, evening 5:10 PM - 9:00 PM (both endpoints
+// are real slots). Closed 2:45 - 5:10 PM daily, closed Mondays.
+// ASAP = ~30 mins from now. Keep PICKUP_SLOTS in sync with the backend
+// (netlify/functions/lib/pickup.js slotList()).
+var PICKUP_SLOTS = ['11:15','11:30','11:45','12:00','12:15','12:30','12:45',
+  '13:00','13:15','13:30','13:45','14:00','14:15','14:30','14:45',
+  '17:10','17:25','17:40','17:55','18:10','18:25','18:40','18:55',
+  '19:10','19:25','19:40','19:55','20:10','20:25','20:40','20:55','21:00'];
+
+function pickupSlotsForDate(dateStr) {
+  // Returns the "HH:MM" (24h) slots valid for the given date (YYYY-MM-DD).
+  // Same-day choices need at least 30 mins lead; Mondays return [].
+  var d = new Date(dateStr + 'T00:00:00');
+  if (isNaN(d.getTime()) || d.getDay() === 1) return []; // closed Mondays
+  var now = new Date();
+  var isToday = dateStr === fmtDateInput(now);
+  if (!isToday) return PICKUP_SLOTS.slice();
+  return PICKUP_SLOTS.filter(function (hhmm) {
+    var p = hhmm.split(':');
+    var slotTime = new Date(now);
+    slotTime.setHours(parseInt(p[0], 10), parseInt(p[1], 10), 0, 0);
+    return slotTime.getTime() >= now.getTime() + 30 * 60 * 1000;
+  });
+}
+
+function fmtSlot12h(hhmm) {
+  var parts = hhmm.split(':');
+  var h = parseInt(parts[0], 10), m = parts[1];
+  var ap = h >= 12 ? 'PM' : 'AM';
+  var h12 = h % 12; if (h12 === 0) h12 = 12;
+  return h12 + ':' + m + ' ' + ap;
+}
+
+function bindPickupScheduler() {
+  var typeRadios = body.querySelectorAll('input[name="t-pickup-type"]');
+  var schedDiv = body.querySelector('#t-pickup-sched');
+  var dateEl = body.querySelector('#t-pickup-date');
+  var timeEl = body.querySelector('#t-pickup-time');
+  if (!typeRadios.length || !schedDiv) return;
+
+  // Set date min/max: today to +7 days
+  var now = new Date();
+  dateEl.setAttribute('min', fmtDateInput(now));
+  var maxD = new Date(now); maxD.setDate(maxD.getDate() + 7);
+  dateEl.setAttribute('max', fmtDateInput(maxD));
+
+  function updateType() {
+    var sel = body.querySelector('input[name="t-pickup-type"]:checked');
+    var isSched = sel && sel.value === 'scheduled';
+    schedDiv.style.display = isSched ? '' : 'none';
+    Array.prototype.forEach.call(typeRadios, function (r) {
+      var lab = r.closest('label');
+      if (lab) lab.classList.toggle('sel', r.checked);
+    });
+  }
+  Array.prototype.forEach.call(typeRadios, function (r) {
+    r.addEventListener('change', updateType);
+  });
+
+  dateEl.addEventListener('change', function () {
+    var v = dateEl.value;
+    timeEl.innerHTML = '';
+    if (!v) {
+      timeEl.innerHTML = '<option value="">Choose a date first</option>';
+      return;
+    }
+    if (new Date(v + 'T00:00:00').getDay() === 1) {
+      showErr('We\u2019re closed on Mondays \u2014 please pick another day.');
+      timeEl.innerHTML = '<option value="">Closed on Mondays</option>';
+      return;
+    }
+    showErr('');
+    var slots = pickupSlotsForDate(v);
+    if (!slots.length) {
+      timeEl.innerHTML = '<option value="">No slots available this date</option>';
+      return;
+    }
+    timeEl.innerHTML = '<option value="">Select a time</option>' +
+      slots.map(function (s) { return '<option value="' + s + '">' + fmtSlot12h(s) + '</option>'; }).join('');
+  });
+  updateType();
+}
+
+function validPickupFields() {
+  var sel = body.querySelector('input[name="t-pickup-type"]:checked');
+  var type = sel ? sel.value : 'asap';
+  if (type === 'asap') return { type: 'asap' };
+  var dateEl = body.querySelector('#t-pickup-date');
+  var dateStr = dateEl ? dateEl.value : '';
+  if (!dateStr) { showErr('Please choose a pickup date.'); return null; }
+  if (new Date(dateStr + 'T00:00:00').getDay() === 1) {
+    showErr('We\u2019re closed on Mondays \u2014 please pick another day.');
+    return null;
+  }
+  var timeEl = body.querySelector('#t-pickup-time');
+  var timeStr = timeEl ? timeEl.value : '';
+  if (!timeStr) { showErr('Please choose a pickup time.'); return null; }
+  var slots = pickupSlotsForDate(dateStr);
+  if (slots.indexOf(timeStr) < 0) {
+    showErr('That pickup time is not available \u2014 please choose another.');
+    return null;
+  }
+  return { type: 'scheduled', date: dateStr, time: timeStr };
+}
+
+function fmtDateInput(d) {
+  return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+}
+
 function validForm() {
   var name = body.querySelector('#t-name').value.trim();
   var phone = body.querySelector('#t-phone').value.replace(/\D/g, '');
@@ -1400,8 +1544,10 @@ function validForm() {
              note: body.querySelector('#t-note').value.trim(), catering: c };
   }
   var f = fulfillment();
+  var pickup = validPickupFields();
+  if (!pickup) return null;
   return { name: name, phone: body.querySelector('#t-phone').value.trim(), email: email,
-           fulfillment: f, note: body.querySelector('#t-note').value.trim() };
+           fulfillment: f, note: body.querySelector('#t-note').value.trim(), pickup: pickup };
 }
 
 /* ---------- modifier popup ---------- */
@@ -1460,7 +1606,7 @@ function openModModal(name, qids) {
 function enableOrdering() {
   window.TandoorCart = {
     add: function (name) {
-      if (!MENU_PRICES[name]) return;
+      if (!(name in MENU_PRICES)) return;
       var qids = questionsFor(name);
       if (!qids.length) { addToCart(name, []); }
       else openModModal(name, qids);
@@ -1486,24 +1632,6 @@ function enableOrdering() {
     if (b) { e.preventDefault(); openDrawer('cart'); }
   });
 }
-
-/* Test hook: exposes pure catering/pickup math for node-based tests. */
-window.TandoorTest = {
-  CATERING_MENU: CATERING_MENU, CATERING_CATS: CATERING_CATS,
-  TRAY_LABEL: TRAY_LABEL, TRAY_SERVES: TRAY_SERVES,
-  catUnitPrice: catUnitPrice, catDisplayName: catDisplayName,
-  catCartSubtotal: catCartSubtotal, catCartCount: catCartCount,
-  cateringMath: cateringMath, checkoutMath: checkoutMath, money: money,
-  addToCatCart: addToCatCart, addToCart: addToCart,
-  saveCatCart: saveCatCart, save: save,
-  getCatCart: function () { return catCart; },
-  setCatCart: function (c) { catCart = c || {}; saveCatCart(); renderCartBtn(); },
-  getCart: function () { return cart; },
-  setCart: function (c) { cart = c || {}; save(); renderCartBtn(); },
-  getOrderMode: function () { return orderMode; },
-  setOrderMode: setOrderMode,
-  setCateringFulfillment: function (f) { cateringFulfillment = (f === 'delivery') ? 'delivery' : 'pickup'; }
-};
 
 // On-site ordering is live for all visitors.
 enableOrdering();
